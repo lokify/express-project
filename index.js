@@ -18,7 +18,7 @@ app.post("/tea", (req, res) => {
     price,
   };
   teaData.push(newtea);
-  res.status(202).send(newtea);
+  res.status(202).send(newtea); // Status must be mentioned according to the standard rules
 });
 
 // List all the tea items
